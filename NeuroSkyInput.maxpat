@@ -132,7 +132,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.792358, 455.0, 39.0, 20.0 ],
-					"presentation_rect" : [ 358.233887, 456.0, 0.0, 0.0 ],
 					"text" : "Delta"
 				}
 
@@ -146,7 +145,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.233887, 455.0, 66.0, 20.0 ],
-					"presentation_rect" : [ 260.417847, 457.0, 0.0, 0.0 ],
 					"text" : "Meditation"
 				}
 
@@ -160,7 +158,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 221.675415, 455.0, 58.0, 20.0 ],
-					"presentation_rect" : [ 198.27858, 458.0, 0.0, 0.0 ],
 					"text" : "Attention"
 				}
 
@@ -174,7 +171,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.116943, 557.0, 37.0, 20.0 ],
-					"presentation_rect" : [ 141.0, 562.0, 0.0, 0.0 ],
 					"text" : "Blink"
 				}
 
@@ -188,7 +184,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.166687, 557.0, 62.13929, 20.0 ],
-					"presentation_rect" : [ 12.0, 562.0, 0.0, 0.0 ],
 					"text" : "Raw EEG"
 				}
 
@@ -217,7 +212,7 @@
 					"numoutlets" : 14,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 13.0, 254.0, 923.260132, 20.0 ],
-					"text" : "AL.TGCSunpack"
+					"text" : "Neurosky.TGCSunpack"
 				}
 
 			}
@@ -734,16 +729,16 @@
 ,
 					"patching_rect" : [ 13.0, 156.0, 141.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontface" : 0
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p OpenCloseConnection"
@@ -1374,7 +1369,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "AL.TGCSunpack.maxpat",
+				"name" : "Neurosky.TGCSunpack.maxpat",
 				"bootpath" : "/Users/alal/Documents/Freelance Work/Lisa Park/NeuroSkyMaxMSP",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
