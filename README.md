@@ -6,7 +6,7 @@ Connects via TGSP, more here: http://developer.neurosky.com/docs/doku.php?id=thi
 
 Max 6 SHA-1 code generated on Max.app/Contents/MacOS/Max: a4785a4ca03023bbe8528985b44644757f0f2ed0
 
-NOTE: AL.TCGS is deprecated, as is NeuroskyRouting, need to remove these
+Still have a bug where you need to open MindWaveMobile to get data stream...
 
 Neurosky. class refers to Neurosky MindWave Mobile
 Epoch. class refers to Emotiv Epoch
