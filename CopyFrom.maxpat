@@ -44,7 +44,7 @@
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "Epoch.Routing.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 245.0, 568.0, 123.0, 88.0 ],
@@ -57,7 +57,7 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "Neurosky.Routing.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 568.0, 123.0, 88.0 ]
