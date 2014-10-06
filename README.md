@@ -8,14 +8,21 @@ These patches communicate with Neurosky's ThinkGear Connector software using Thi
 
 
 <h2>STEPS</h2> 
-1. Get tcpClient Java class installed (see above)<br />
-2. Download and install ThinkGearConnect (see above) <br />
-3. Make sure the folder with these patches is in your Max path somewhere or add it as its own path (see Options->File Preferences). This is to get the supplied externs working.<br />
-4. Open ThinkGear Connector<br />
-5. Connect your MindWave Mobile<br />
-6. Open patch NeuroSkyInput. It should connect to ThinkGear Connector automatically, if you click the system tray dropdown, you should see "1 connected application"<br />
-7. <strong>BUG</strong>: Open MindWaveMobile Tutorial. For some reason, ThinkGear Connector won't spit out data until this step is done. Trying to figure out which message I'm supposed to send that I'm missing.<br />
-8. After this you should see data streaming into Max! …Hopefully?<br />
+<ol><li>Get tcpClient Java class installed (see above)</li>
+
+<li>Download and install ThinkGearConnect (see above) </li>
+
+<li>Make sure the folder with these patches is in your Max path somewhere or add it as its own path (see Options->File Preferences). This is to get the supplied externs working.</li>
+
+<li>Open ThinkGear Connector</li>
+
+<li>Connect your MindWave Mobile</li>
+
+<li>Open patch NeuroSkyInput. It should connect to ThinkGear Connector automatically, if you click the system tray dropdown, you should see "1 connected application"</li>
+
+<li><strong>BUG</strong>: Open MindWaveMobile Tutorial. For some reason, ThinkGear Connector won't spit out data until this step is done. Trying to figure out which message I'm supposed to send that I'm missing.</li>
+
+<li>After this you should see data streaming into Max! …Hopefully?</li></ol>
 
 
 Max 6 SHA-1 code generated on Max.app/Contents/MacOS/Max: a4785a4ca03023bbe8528985b44644757f0f2ed0
@@ -32,13 +39,20 @@ Max 6 SHA-1 code generated on Max.app/Contents/MacOS/Max: a4785a4ca03023bbe85289
 
 
 <h2>PATCH LIST AND EXPLANATION:</h2>
-CopyFrom: pre-loaded bpatchers to copy for use in your patches<br />
-Epoch.Routing: flexible parameter routing from Emotiv Epoch. To be used in bpatcher, found in CopyFrom<br />
-Neurosky.Routing: flexible parameter routing from NeuroSky MindWave Mobile. To be used in bpatcher, found in CopyFrom<br />
-Neurosky.TGCSunpack: unpacks JSON-based dictionaries sent over TCP/IP from ThinkGearConnector. This is the heart of the patch. It outputs the parameters to individual outlets, as well as all of the EEG Power values in one packed list. All parameters are also sent within Max, allowing use of Neurosky.Routing and Neurosky.Vizualizer without any patch cables<br />
-Neurosky.Vizualizer: Vizualizes output of MindWave Mobile. Still need to do some work on ranges…<br />
-NeuroSkyInput: open this to connect to ThinkGear Connector and see visualization. Basic example patch, essentially<br />
-NeurSkyOSC: ignore<br />
-oldVizualizer: ignore
+<ul><li><strong>CopyFrom:</strong> pre-loaded bpatchers to copy for use in your patches</li>
+
+<li><strong>Epoch.Routing:</strong> flexible parameter routing from Emotiv Epoch. To be used in bpatcher, found in CopyFrom</li>
+
+<li><strong>Neurosky.Routing:</strong> flexible parameter routing from NeuroSky MindWave Mobile. To be used in bpatcher, found in CopyFrom</li>
+
+<li><strong>Neurosky.TGCSunpack:</strong> unpacks JSON-based dictionaries sent over TCP/IP from ThinkGearConnector. This is the heart of the patch. It outputs the parameters to individual outlets, as well as all of the EEG Power values in one packed list. All parameters are also sent within Max, allowing use of Neurosky.Routing and Neurosky.Vizualizer without any patch cables</li>
+
+<li><strong>Neurosky.Vizualizer:</strong> Vizualizes output of MindWave Mobile. Still need to do some work on ranges…</li>
+
+<li><strong>NeuroSkyInput:</strong> open this to connect to ThinkGear Connector and see visualization. Basic example patch, essentially</li>
+
+<li><strong>NeurSkyOSC: </strong>ignore</li>
+
+<li><strong>oldVizualizer: </strong>ignore</li> </ul>
 
 Somewhat based on this project: https://github.com/trentbrooks/BrainWaveOSC
