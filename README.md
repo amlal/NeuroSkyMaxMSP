@@ -3,8 +3,8 @@
 Series of patches to get data from MindWave Mobile and Emotive Epoch into Max MSP, including flexible parameter routing and visualization. 
 
 <h2>DEPENDENCIES</h2>
-This project relies on the tcpClient external Java class, found here: http://cycling74.com/toolbox/tcpclient/ Follow the instructions as to where to place this in your Max folder. <br />
-These patches communicate with Neurosky's ThinkGear Connector software using ThinkGear Socket Protocol (TGSP). You must have ThinkGear Connector installed, download here: http://developer.neurosky.com/docs/doku.php?id=thinkgear_connector_tgc (see 'Latest Builds'). More info on TGSP: http://developer.neurosky.com/docs/doku.php?id=thinkgear_socket_protocol
+<ul><li>This project relies on the tcpClient external Java class, found here: http://cycling74.com/toolbox/tcpclient/ Follow the instructions as to where to place this in your Max folder. </li>
+<li>These patches communicate with Neurosky's ThinkGear Connector software using ThinkGear Socket Protocol (TGSP). You must have ThinkGear Connector installed, download here: http://developer.neurosky.com/docs/doku.php?id=thinkgear_connector_tgc (see 'Latest Builds'). More info on TGSP: http://developer.neurosky.com/docs/doku.php?id=thinkgear_socket_protocol </li></ul>
 
 
 <h2>STEPS</h2> 
